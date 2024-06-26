@@ -9,9 +9,9 @@ const Section4 = () => {
       className="w-full min-h-[40vh] bg-[#38393d] flex justify-center items-center gap-4 pt-8 pb-8"
       id="whyUs"
     >
-      <div className="w-[80%] grid grid-cols-2">
+      <div className="md:w-[80%] w-[90%] flex flex-col-reverse md:grid md:grid-cols-2 pt-8 gap-8">
         <div className="text-container w-full text-white flex justify-center items-center flex-col gap-4">
-          <h1 className="text-4xl font-bold pb-4">
+          <h1 className="text-2xl md:text-4xl font-bold pb-4 text-center md:text-left">
             Why Should People Choose <span className="">Game Fitness</span>
           </h1>
           <ul className="flex flex-col gap-4">
@@ -76,7 +76,7 @@ const Section4 = () => {
           <figure className="w-full">
             <img src={whyUsImage} alt="" className="w-full scale-[1.3]" />
           </figure>
-          <div className="bpm-card bg-white gap-4 w-[12rem] h-[66px] rounded-xl relative bottom-[27%] right-[30%] flex items-center">
+          <div className="bpm-card  hidden bg-white gap-4 w-[45%] h-[66px] rounded-xl md:relative bottom-[27%] right-[30%] flex items-center relative">
             <figure className="h-full w-[30%] pl-2">
               <img
                 src={heartBPMImage}
@@ -90,7 +90,7 @@ const Section4 = () => {
             </div>
           </div>
 
-          <div className="burning-card bg-white w-[] h-[66px] rounded-xl relative bottom-[80%] left-[35%] flex items-center gap-4">
+          <div className="burning-card  hidden bg-white w-[50%] h-[66px] rounded-xl md:relative md:bottom-[80%] bottom-[80%] md:left-[35%] flex items-center gap-4">
             <figure className="h-full w-[30%] pl-2">
               <img
                 src={fireImage}

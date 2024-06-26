@@ -3,18 +3,18 @@ import React from 'react'
 const Section5 = () => {
   return (
     <section className='w-full min-h-[40vh] pt-8 pb-8 bg-[#35363a] flex items-center justify-center flex-col' id='membership'>
-<div className="w-[80%]">
+<div className="md:w-[80%] w-[90%]">
     <div className="heading w-full flex flex-col text-center text-white gap-4">
-    <h1 className='font-bold text-4xl'>Choose The Best Plan</h1>
-    <p className="font-medium text-lg">Choose Your Best Plan That's Right for You, Simple Pricing, No Hidden Charges</p>
+    <h1 className='font-bold text-2xl md:text-4xl'>Choose The Best Plan</h1>
+    <p className="font-medium text-md md:text-lg">Choose Your Best Plan That's Right for You, Simple Pricing, No Hidden Charges</p>
     </div>
 
-    <div className="cards w-full grid grid-cols-2 mt-8 gap-4 place-items-center">
-        <div className="non-ac w-[80%] bg-[#434343] text-white flex flex-col justify-center items-center gap-4 py-6 rounded-xl hover:bg-[#f5622b] transition-all duration-300 hover:scale-[1.05]">
+    <div className="cards w-full grid md:grid-cols-2 mt-8 gap-4 place-items-center">
+        <div className="non-ac  w-[80%] bg-[#434343] text-white flex flex-col justify-center items-center gap-4 py-6 rounded-xl hover:bg-[#f5622b] transition-all duration-300 hover:scale-[1.05]">
             <h1 className="text-xl font-semibold">Non-AC</h1>
             <p className="text-2xl font-bold">₹ 500/ month</p>
 
-<ul className="flex flex-col gap-4 text-xl">
+<ul className="flex flex-col gap-4 md:text-xl">
     <li className="flex gap-4"><svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -52,7 +52,7 @@ const Section5 = () => {
             <h1 className="text-xl font-semibold">AC</h1>
             <p className="text-2xl font-bold">₹ 1000/ month</p>
 
-<ul className="flex flex-col gap-4 text-xl">
+<ul className="flex flex-col gap-4 md:text-xl">
     <li className="flex gap-4"><svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
