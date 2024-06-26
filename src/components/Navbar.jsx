@@ -13,6 +13,7 @@ const Navbar = () => {
             <li className="cursor-pointer font-medium hover:text-red-600"><a href="#home" className="">Home</a></li>
             <li className="cursor-pointer font-medium hover:text-red-600"><a href="#aboutUs" className="">About Us</a></li>
             <li className="cursor-pointer font-medium hover:text-red-600"><a href="#program" className="">Program</a></li>
+            <li className="cursor-pointer font-medium hover:text-red-600"><a href="#gallery" className="">Gallery</a></li>
             <li className="cursor-pointer font-medium hover:text-red-600"><a href="#membership" className="">Membership</a></li>
             <li className="cursor-pointer font-medium hover:text-red-600"><a href="#contact" className="">Contact</a></li>
             <li className="cursor-pointer font-medium hover:text-red-600">Sign Up</li>
