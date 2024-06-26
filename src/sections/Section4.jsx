@@ -1,5 +1,7 @@
 import React from "react";
 import whyUsImage from "../../public/whyUs-image.png";
+import heartBPMImage from "../../public/heart-bpm.png";
+import fireImage from "../../public/fire-image.png";
 
 const Section4 = () => {
   return (
@@ -42,11 +44,11 @@ const Section4 = () => {
                 >
                   <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
                 </svg>{" "}
-                Personal Training
+                Expert Trainer
               </h2>
               <p className="">
-                Our Personal trainers can help you create a personalized fitness
-                plan and track your progress.
+                Our gym is proud to Offer a highly skilled and certified trainer
+                help to achieve your health & fitness goals.
               </p>
             </li>
             <li className="flex flex-col gap-3">
@@ -60,20 +62,47 @@ const Section4 = () => {
                 >
                   <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
                 </svg>{" "}
-                Personal Training
+                Flexible Time
               </h2>
               <p className="">
-                Our Personal trainers can help you create a personalized fitness
-                plan and track your progress.
+                There are many fitness classes that are offered during off-peak
+                hours, such as early morning or late evening
               </p>
             </li>
           </ul>
         </div>
 
-        <div className="image-container w-full flex items-center justify-center">
+        <div className="image-container w-full flex flex-col items-center justify-center">
           <figure className="w-full">
-            <img src={whyUsImage} alt="" className="w-full scale-[1.2]" />
+            <img src={whyUsImage} alt="" className="w-full scale-[1.3]" />
           </figure>
+          <div className="bpm-card bg-white gap-4 w-[12rem] h-[66px] rounded-xl relative bottom-[27%] right-[30%] flex items-center">
+            <figure className="h-full w-[30%] pl-2">
+              <img
+                src={heartBPMImage}
+                alt=""
+                className="w-full h-full object-contain"
+              />
+            </figure>
+            <div className="flex flex-col">
+              <span className="font-bold">70 BPM</span>
+              <span className="font-medium">Heart Rate</span>
+            </div>
+          </div>
+
+          <div className="burning-card bg-white w-[] h-[66px] rounded-xl relative bottom-[80%] left-[35%] flex items-center gap-4">
+            <figure className="h-full w-[30%] pl-2">
+              <img
+                src={fireImage}
+                alt=""
+                className="w-full h-full object-contain"
+              />
+            </figure>
+            <div className="flex flex-col">
+              <span className="font-bold">24%</span>
+              <span className="font-medium">Flat Burning</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
